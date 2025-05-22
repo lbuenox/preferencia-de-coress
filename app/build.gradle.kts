@@ -5,12 +5,16 @@ plugins {
 
 android {
     namespace = "android.larissa.etimpamilarissapreferenciadecores"
-    compileSdk = 35
+    compileSdk = 34
+
+    buildFeatures{
+        viewBinding=true
+    }
 
     defaultConfig {
         applicationId = "android.larissa.etimpamilarissapreferenciadecores"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
